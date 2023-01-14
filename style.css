@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    border: 0;
+    background-color: skyblue;
+}
+pre{
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    gap: 40px;
+    padding-top: 30px;
+    margin-right: 20px;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+    gap: 20px;
+}
+.child{
+    width: 400px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: aqua;
+}
+.row{
+    width: 200px;
+    height: 93px;
+}
+.row1{
+    width: 400px;
+    height: 143px;
+}
+.row2{
+    width: 200px;
+    height: 143px;
+}
+.child6{
+    text-align: center;
+    padding-top: 5px;
+}
